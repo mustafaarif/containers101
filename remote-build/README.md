@@ -32,10 +32,10 @@ Now we are all set for remote builds
 ## Step 04
 Create a definition file which lists all your requirements for the container
 ```sh
-singularity build --remote myapp.sif myapp.def
+raad2a:~> singularity build --remote myapp.sif myapp.def
 ```
 ## Step 05
 Interact with the container
 ```sh
-singularity exec myapp.sif python3 --version
+raad2a:~> singularity exec myapp.sif python3 --version
 ```
